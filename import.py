@@ -3,9 +3,9 @@ import pandas as pd
 import json
 
 connection_string = "mongodb://localhost:27017"
-csv_file_path = "talents-data-toindex.csv"
-database_name = "talents_import"
-collection_name = "collected_talents"
+csv_file_path = "import-data.csv"
+database_name = "imported_data"
+collection_name = "collected_data"
 
 try:
   client = pymongo.MongoClient(connection_string)
