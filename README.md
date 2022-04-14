@@ -4,6 +4,9 @@ This is a python script that will help you to import any data from CSV file to M
 # Usage
 
 First curl this project to your local machine
+```
+git clone https://github.com/kaleabgirma/import-csv-to-mongodb.git
+```
 
 Then install the requirment modules using the following command 
 ```
